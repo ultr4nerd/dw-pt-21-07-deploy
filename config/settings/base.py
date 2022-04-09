@@ -114,7 +114,7 @@ USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-
+STATIC_ROOT = str(BASE_DIR / "staticfiles")
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
